@@ -422,7 +422,7 @@ def evaluate_model(model_instance, model_name: str,
 
 
 def main():
-    DATA_DIR = Path("Datasets/Fault_Imbalanced")
+    DATA_DIR = Path("Datasets")
     if not DATA_DIR.exists():
         return
 
@@ -577,4 +577,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
